@@ -4,7 +4,7 @@
   <title><![CDATA[macotoi.github.com]]></title>
   <link href="http://macotoi.github.com/atom.xml" rel="self"/>
   <link href="http://macotoi.github.com/"/>
-  <updated>2012-07-01T16:09:46+09:00</updated>
+  <updated>2012-07-16T10:38:54+09:00</updated>
   <id>http://macotoi.github.com/</id>
   <author>
     <name><![CDATA[macotoi]]></name>
@@ -54,6 +54,8 @@
 <p><img src="https://dl.dropbox.com/u/163758/blog/jb-install-192.png" alt="Install 1.9.2p290" /></p>
 
 <p>次に Add Ruby を選択し、Octropress の対応しているバージョンの Ruby をインストールします。ここでは、動作実績のあった 1.9.2p290 を選択しました。Make Default もチェックしておきます。</p>
+
+<p>インストールを開始して、すぐにグレーの画面になってしまう場合、gcc がインストールされていなためにインストールが停止している可能性があります。そのような場合 <a href="https://github.com/kennethreitz/osx-gcc-installer">OSX GCC Installer</a> から GCC-10.7.pkg をダウンロードしてインストールする必要があります。</p>
 
 <p>インストール完了後、ターミナルで確認します。
 .bash_profile に追記された script が実行されることでデフォルトのバージョンが変更されます。</p>
